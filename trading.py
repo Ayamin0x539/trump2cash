@@ -46,8 +46,8 @@ LIMIT_FRACTION = 0.1
 # The delay in seconds for the second leg of a trade.
 ORDER_DELAY_S = 30 * 60
 
-# Blacklsited stock ticker symbols, e.g. to avoid insider trading.
-TICKER_BLACKLIST = ["GOOG", "GOOGL"]
+# Blacklisted stock ticker symbols, e.g. to avoid insider trading.
+TICKER_BLACKLIST = ["TRIP"]
 
 # We're using NYSE and NASDAQ, which are both in the easters timezone.
 MARKET_TIMEZONE = timezone("US/Eastern")
